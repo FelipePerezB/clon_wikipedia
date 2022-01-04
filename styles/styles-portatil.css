@@ -1,0 +1,17 @@
+.informacion{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 25rem calc(100vw - 27rem);
+}
+
+.información__wikicosas{
+    grid-row: 1/3;
+    grid-column: 2/3;
+}
+
+.informacion__generañ, .wiki-promo{
+    margin: auto;
+    width: 23rem;
+}
