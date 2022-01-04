@@ -12,8 +12,8 @@ body{
 }
 
 .busqueda{
-    width: 100%;
-    height: calc(100vh - 2rem);
+    width:  100%;
+    height: auto;
     max-width: 35rem;
     display: flex;
     flex-flow: column;
@@ -41,6 +41,7 @@ main{
 }
 
 .title{
+    margin-top: 1rem;
     display: grid;
     grid-template-columns: 4rem 12rem;
     grid-template-rows: 2rem 2rem;
@@ -77,6 +78,7 @@ main{
     border: none;
 }
 .barra-busqueda__lenguajes{
+    background-color: white;
     margin: 0.5rem 0.5rem 0 0;
     width: 4rem;
     height: 1.5rem;
@@ -97,7 +99,7 @@ main{
 
 .idiomas{
     display: grid;
-    /* margin: auto; */
+    margin: auto;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -139,10 +141,9 @@ main{
 }
 
 .informacion{
-    display: flex;
-    flex-flow: wrap column;
+    /* display: flex;
+    flex-flow: wrap column; */
     margin: 1rem 0 1rem ;
-    border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
     width: 100%;
     align-items: center;
